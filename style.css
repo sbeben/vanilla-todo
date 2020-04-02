@@ -1,0 +1,103 @@
+html {
+
+	height: 100vh;
+	background: repeating-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
+}
+
+body {
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	font-family: "Arial";
+
+}
+
+#root {
+	
+	background-color: white;
+	color: grey;
+	
+	width: 460px;
+
+	margin: 30px auto;
+
+	border: solid 5px grey;
+	border-radius: 8px;
+
+	text-align: center;
+
+}
+
+#inputLine, #title {
+
+	background: white;
+
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+#userInput {
+
+	background: white;
+
+}
+
+#addButton {
+
+	background: white;
+	color: #23a6d5;
+	border: solid 1px #23a6d5;
+
+}
+
+#clearAll {
+
+	background: white;
+	color: #ee7752;
+	border: solid 1px #ee7752;
+
+}
+
+#box {
+
+	margin-top: 10px;
+
+}
+
+.listElement {
+
+	display: flex;
+	justify-content: space-between;
+	
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	max-width: 96%;
+	
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	hyphens: auto;
+
+}
+
+.itemName {
+
+	max-width: 390px;	
+	
+}
+
+.del {
+
+	background: white;
+	color: #ee7752;
+	height: 20px;
+
+};
+
